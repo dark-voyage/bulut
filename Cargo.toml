@@ -4,12 +4,13 @@ version = "0.2.0"
 edition = "2018"
 homepage = "https://osmon.dev"
 documentation = "https://wiki.osmon.dev/bulut"
-authors = ["UwUssimo Robinson <uwussimo@icloud.com> (https://uwussi.moe)"]
-description = "Osmon VM"
-readme = "readme.md"
 repository = "https://github.com/osmon-lang/osmon-vm"
+description = "Lightweight and fast Virtual Machine built for Osmon Programming Language"
+authors = ["UwUssimo Robinson <uwussimo@icloud.com> (https://uwussi.moe)"]
+readme = "readme.md"
 keywords = ["vm","register","register-based", "uzbek"]
 license = "Apache-2.0"
+exclude = ["target"]
 
 [profile.dev]
 
