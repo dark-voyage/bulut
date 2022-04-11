@@ -1,4 +1,4 @@
-pub mod x64;
+pub mod universal;
 
 pub const REG_COUNT: usize = 16;
 
