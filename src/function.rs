@@ -37,7 +37,7 @@ impl Object for Function {
             Function::Virtual(ref vf) => {
                 //println!("{:?}",args);
                 let func = vf.clone();
-                //println!("{:?}",args[0].to_String(m));
+                // println!("{:?}",args[0].to_String(m));
                 m.last_frame_mut().stack[0] = args[0];
                 for i in 0..args.len() {
                     m.last_frame_mut().stack[i] = args[i];
